@@ -1,0 +1,89 @@
+body{
+    margin: 0%;
+    color: white;
+}
+.menubar{
+    background-color: blue;
+    color: white;
+    overflow: hidden;
+}
+.menubar .menu{
+    overflow: hidden;
+    padding: 0%;
+}
+.menubar .menu ul{
+    float: right;
+    margin-right: 100px;
+}
+.menubar .menu ul li{
+    display: inline-block;
+    line-height:40px;
+    margin: 0, 5px;
+}
+.menubar .menu ul li a{
+    color: white;
+    font-size: 30px;
+    padding: 80px;
+    text-decoration: none;
+}
+.main .full{
+    background-color: black;
+    overflow: hidden;
+    height: 50%;
+}
+/* ===== globally input starts here ===== */
+
+.w-100{
+    width: 100%;
+    height: 50%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.w-25{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+/* ===== globally input ends here ===== */
+
+.content .left-content{
+    background-color: darkred;
+    overflow: hidden;
+}
+.content .middle1-content{
+    background-color: darkgreen;
+    overflow: hidden;
+}
+.content .middle2-content{
+    background-color: darkorange;
+    overflow: hidden;
+}
+.content .right-content{
+    background-color: lime;
+    overflow: hidden;
+}
+.footer .first{
+    background-color: purple;
+    overflow: hidden;
+}
+.footer .second{
+    background-color: gold;
+    overflow: hidden;
+}
+.footer .third{
+    background-color: red;
+    overflow: hidden;
+
+}
+.footer .fourth{
+    background-color: darkblue;
+    overflow: hidden;
+}
+.footer{
+    float: left;
+    overflow: hidden;
+}

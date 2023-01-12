@@ -1,0 +1,57 @@
+body{
+    margin: 0%;
+}
+.main{
+    width: 100%;
+}
+.main .one{
+    width: 350px;
+    height:350px;
+    background: url(collection/flower/kolmi.jpg) no-repeat 100% 100% / cover;
+    background-color: limegreen;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.main .two{
+    width: 350px;
+    height: 350px;
+    background: url(collection/flower/shonali.png) no-repeat 100% 100% / cover;
+    background-color: blue;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.main .three{
+    width: 350px;
+    height: 350px;
+    background: url(collection/flower/kodom.jpg) no-repeat 100% 100% / cover;
+    background-color: black;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+.main .four{
+    width: 350px;
+    height: 350px;
+    background: url(collection/flower/water.jpg) no-repeat 100% 100% / cover;
+    background-color: darkred;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    
+}
+.main .five{
+    width: 350px;
+    height: 350px;
+    background: url(collection/flower/krishnochura.jpg) no-repeat 100% 100% / cover;
+    background-color: darkorange;
+    box-sizing: border-box;
+    position: absolute;
+    top: 25%;
+    left: 38%;
+}

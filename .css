@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #CAD3C8;
+}
+.container{
+    width: 350px;
+    height: 350px;
+    background-size:cover ;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    right: 100%;
+    transform: translate(-50%,-50%);
+    perspective: 1000px;
+    border: 2px solid #02090D;
+    background-color: #C0C0C0;
+}
+h2{
+    font-size: 1rem;
+    top: auto;
+    color: white;
+    margin: 5px;
+}
+p.para{
+   position: fixed;
+    color: white;
+    text-align: justify;
+    top: 100px;
+    margin: 5px;
+}
+p.pera{
+    position: fixed;
+    color: white;
+    text-align: justifys;
+    top: 120px;
+    margin: 5px;
+
+}
+.dash{
+    position: fixed;
+    color: white;
+    text-align: justify;
+    top: 150px;
+    left: 120px;
+}
+p.ka{
+    position: fixed;
+    color: white;
+    text-align: justify;
+    top: 180px;
+    margin: 5px;
+}
+p.n{
+    position: fixed;
+    color: white;
+    text-align: justify;
+    top: 200px;
+    left: 50px;
+    margin: 5px;
+}
+.kazi{
+    position: fixed;
+    color: white;
+    text-align: justify;
+    top: 220px;
+    left: 50px;
+}
+h5{
+    position: absolute;
+    top: 280px;
+    left: auto;
+    color: white;
+    margin: 5px;
+}
+p.signed {
+    position: absolute;
+    font-family: Edwardian Script ITC;
+    font-size: 1.5rem;
+    top: 310px;
+    color: #ffffff;
+    margin: 5px;
+}
+.cover{
+    width: 350px;
+    height: 350px;
+    color: white;
+    position: fixed;
+    left: auto;
+    top: 0%;
+    background-size:cover ;
+    transform: rotateY(-1deg);
+    transform-style: preserve-3d;
+    transform-origin: left;
+    transition: ease-in;
+    border: 1px solid #02090D;
+    background-color: #C0C0C0;
+    transition-duration: 4s;
+}
+.container:hover .cover{
+    transform: rotateY(-100deg);
+}
+.figure{
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.ten{
+    color: #ffffff;
+    text-align-last: right;
+    margin-bottom: 100%;
+    padding-left: 70%;
+    font-size: 20px;
+    margin-top: 50%;
+}
+.ten:hover{
+    color: darkorange;
+}

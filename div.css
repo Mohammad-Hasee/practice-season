@@ -1,0 +1,52 @@
+body{
+    margin: 0%;
+}
+.header_content{
+    background-color: blue;
+    color: white;
+}
+.header_content .header{
+    overflow: hidden;
+    padding: 20px;
+}
+/*Globally use the width from starts here*/
+.wi-25{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.wi-50{
+    width: 50%;
+    overflow: hidden;
+    float: left;
+    box-sizing: border-box;
+}
+/*Globally use the width from ends here*/
+.main_content .content_left{
+    background-color: green;
+    overflow: hidden;
+    padding: 20px;
+}
+.main_content .Content_middle{
+    background-color: darkorange;
+    overflow: hidden;
+    padding: 20px;
+}
+.main_content .content_right{
+    background-color: red;
+    overflow: hidden;
+    padding: 20px;
+}
+.main_content{
+    overflow: hidden;
+    color: white;
+}
+.footer_content{
+    background-color: black;
+    color: white;
+}
+.footer_content .footer{
+    overflow: hidden;
+    padding: 20px;
+}
